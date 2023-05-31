@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device=width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <title>Codigo-QR</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                box-sizing: border-box;
+            }
+
+            body {               
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                width: 100vw;
+                height: 100vh;
+            }
+
+            main {
+                position: absolute;
+                background-color: rgba(174, 201, 222, 0.816);               
+                width: 85vw;
+                height: 85vh;
+                box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.479);
+
+                left: 50%;
+                top: 50%;
+
+                transform: translate(-50%, -50%);
+            }
+
+            section {
+                position: absolute;
+                background-color: white;
+                width: 300px;
+                height: 500px;
+                border-radius: 10px;
+                padding: 25px;
+                
+                left: 50%;
+                top: 50%;
+
+                transform: translate(-50%, -50%);
+            }
+
+            section #foto {
+                width: 270px;
+                margin-left: -25px;
+                margin-top: -25px;
+                padding: 15px;
+            }  
+
+            img {
+                width: 270px;
+                border-radius: 10px;
+            }
+
+            section #descricao {
+                margin: auto;                
+            }
+            
+            h1 {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 18px;
+                text-align: center;
+                font-weight: bolder;
+                padding-top: 10px;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                padding-top: 18px;
+                color: rgba(0, 0, 0, 0.64);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                
+                <div id="foto">
+                    <img src="imagens/image-qr-code.png">
+                </div>
+            
+                <div id="descricao">
+                    <h1>Improve your front-end skills by building projects</h1>
+
+                    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html> 
